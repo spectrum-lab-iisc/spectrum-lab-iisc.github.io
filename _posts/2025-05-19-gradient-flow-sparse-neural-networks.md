@@ -201,7 +201,7 @@ So, if LTs don't fix the gradient flow problem, why do they work so well? The pa
 
 <div class="container text-center align-items-center justify-content-center mx-auto" markdown=1>
 <div class="caption">
-Table 1: Ensemble & Prediction Disagreement. We compare the function similarity <d-cite key="Fort2020deep"></d-cite> with the original pruning solution and ensemble generalization over 5 sparse ResNet50 models, trained from random initializations and LTs (lottery tickets) on ImageNet. As a baseline, we also show results for 5 pruned models trained from different random initializations. * we compare 4 different pruned models with the pruning solution LT are derived from.
+Table 1: Ensemble & Prediction Disagreement. We compare the function disagreement <d-cite key="Fort2019deepensembles"></d-cite> with the original pruning solution and ensemble generalization over 5 sparse ResNet50 models, trained from random initializations and LTs (lottery tickets) on ImageNet. As a baseline, we also show results for 5 pruned models trained from different random initializations. * we compare 4 different pruned models with the pruning solution LT are derived from.
 </div>
 
 <!-- #### LeNet5 MNIST -->
