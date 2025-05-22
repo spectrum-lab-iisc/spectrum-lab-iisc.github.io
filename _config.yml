@@ -254,7 +254,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-# Custom excludes
+  # Custom excludes
   - assets/plotly/
   - assets/plotly/demo.html
   - assets/html/relativity.html
@@ -292,10 +292,8 @@ plugins:
 defaults:
   - scope:
       path: "assets"
-      path: "teaching"
-      path: "projects"
     values:
-      sitemap: false
+      sitemap: true
 
 sass:
   style: compressed
