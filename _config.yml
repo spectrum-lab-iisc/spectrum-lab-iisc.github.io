@@ -199,7 +199,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
@@ -212,7 +212,7 @@ collections:
     output: true
     permalink: /places/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 # -----------------------------------------------------------------------------
@@ -254,6 +254,16 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+# Custom excludes
+  - assets/plotly/
+  - assets/plotly/demo.html
+  - assets/html/relativity.html
+  - projects/
+  - repositories/
+  - teaching/
+  - _pages/teaching.md
+  - _pages/projects.md
+  - _pages/repositories.md
 
 keep_files:
   - CNAME
@@ -282,8 +292,10 @@ plugins:
 defaults:
   - scope:
       path: "assets"
+      path: "teaching"
+      path: "projects"
     values:
-      sitemap: true
+      sitemap: false
 
 sass:
   style: compressed
