@@ -3,7 +3,7 @@ layout: page
 title: people
 permalink: /labmembers/
 # description: Lab Members
-nav: true
+nav: false
 nav_order: 3
 # display_categories: [Lab Director, Postdoctoral Fellows, PhD Students, MSc Students, Research Associates, Undergraduates, Collaborators, Alumni]
 # display_categories: [Lab Director, PhD Students, MSc Students, Research Assistants, Undergraduates, High School, Alumni]

@@ -1,4 +1,4 @@
-# $uc-red-color: #d6001c !default;
+# $uc-red-color: #002e99 !default;
 # $uc-gold-color: #ffcd00 !default;
 # $uc-light-orange-color: #ffa300 !default;
 # $uc-dark-orange-color: #ff671f !default;
@@ -10,34 +10,34 @@
   color: "#ffcd00"
 "NeurIPS":
   url: https://proceedings.neurips.cc
-  color: "#ff671f"
+  color: "#002e99"
 "NeurIPS Workshops":
   url: https://proceedings.neurips.cc
   color: "#9c0534"
 "ICLR":
   url: https://iclr.cc
-  color: "#ff671f"
+  color: "#002e99"
 "ICLR Workshops":
   url: https://iclr.cc
   color: "#9c0534"
 "ICML":
   url: https://icml.cc
-  color: "#ff671f"
+  color: "#002e99"
 "ICML Workshops":
   url: https://icml.cc
   color: "#9c0534"
 "AAAI":
   url: https://www.aaai.org/Library/AAAI/aaai-library.php
-  color: "#ff671f"
+  color: "#002e99"
 "MICCAI":
   url: http://www.miccai.org
-  color: "#ff671f"
+  color: "#002e99"
 "TMLR":
   url: https://jmlr.org/tmlr/
-  color: "#ff671f"
+  color: "#002e99"
 "CANAI":
   url: https://www.caiac.ca/en/conferences/
-  color: "#ff671f"
+  color: "#002e99"
 "CPAL Spotlight":
   url: https://cpal.cc
   color: "#9c0534"

@@ -2,22 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Calgary Machine Learning Lab # the website title (if blank, full name will be used instead)
-first_name:
+title: # the website title (if blank, full name will be used instead)
+first_name: Spectrum
 middle_name:
-last_name:
+last_name: Lab
 email: yani.ioannou@ucalgary.ca
-description: Calgary Machine Learning Lab
+description: Spectrum Lab
 long_description: "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Domain-Agnostic Self-Supervised Learning. We collaborate with other research groups within the university with the Calgary Artificial Intelligence Research Group, and broader, on applying machine learning and computer vision to novel problems."
-territorial_acknowledgement: We would like to acknowledge the traditional territories of the People of the Treaty 7 region in Southern Alberta which includes the Blackfoot Confederacy (comprising the Siksika, Piikani, and Kainai First Nations), as well as the Tsuut’ina First Nation, and the Stoney Nakoda (including the Chiniki, Bearspaw, and Wesley First Nations). The City of Calgary is also home to Métis Nation of Alberta, Region 3.
+territorial_acknowledgement: 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/calgaryml/calgaryml.github.io">customized theme</a> based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos &copy; Yani Ioannou.
 keywords: Calgary, ucalgary, University of Calgary, Alberta, u of c, machine learning, ml, neural networks, NN, deep learning, artificial intelligence, AI, lab, research lab, research group, yani ioannou, schulich, engineering # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 # icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-logo: /assets/img/ucmllogo-text.svg
+logo: /assets/img/SpectrumLogo.png # the logo image used in the navbar and footer (alternatively, provide an emoji)
 url: https://www.calgaryml.com # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -30,11 +29,11 @@ back_to_top: true # set to false to disable the back to top button
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: light # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: flat # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -66,7 +65,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: /assets/img/ucmllogo-og.png # The site-wide (default for all links) Open Graph preview image
+og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -165,7 +164,7 @@ giscus:
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  theme: light # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
 
@@ -452,8 +451,8 @@ enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: true # enables displaying social links in the navbar on the about page
+enable_darkmode: false # enables switching between light/dark modes
+enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: false # enables categorization of projects into multiple categories
 enable_place_categories: false # enables categorization of places into multiple categories
 enable_medium_zoom: false # enables image zoom feature (as on medium.com)

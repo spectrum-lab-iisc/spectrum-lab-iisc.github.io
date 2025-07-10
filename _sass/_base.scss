@@ -706,6 +706,7 @@ footer.sticky-bottom {
   }
 
   .card {
+    // Removed position: relative;
     box-shadow: none;
     background-color: var(--global-bg-color);
     img {
@@ -1472,4 +1473,8 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+.table-dark {
+  color: #000;
 }

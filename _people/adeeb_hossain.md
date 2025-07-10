@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 firstname: Adeeb
 lastname: Hossain
 description: <a href="https://www.nserc-crsng.gc.ca/students-etudiants/ug-pc/usra-brpc_eng.asp">NSERC USRA</a> Research Intern (Summer 2024)
