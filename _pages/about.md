@@ -18,7 +18,7 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_news` folder
-display_categories: [Lab Director, PhD Students, MSc Students, Undergraduates, Alumni]
+display_categories: [Lab Director, PhD Students, MSc Students, Undergraduates]
 latest_posts:
   enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
@@ -65,18 +65,18 @@ is a research group led by [Chandra Sekhar Seelamantula](https://yani.ai) in the
 
 <!-- pages/people.md -->
 <div class="people">
-  <!-- Display categorized people -->
+  <!-- Display categorized people except Alumni -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_people = site.people | where: "category", category -%}
-  {%- assign sorted_people = categorized_people | sort: "lastname" %}
-  <!-- Generate cards for each person -->
-  <div class="grid">
-    {%- for person in sorted_people -%}
-      {%- if person.show -%}
-        {% include people.liquid %}
-      {%- endif -%}
-    {%- endfor %}
-  </div>
+      <h2 class="category">{{ category }}</h2>
+      {%- assign categorized_people = site.people | where: "category", category -%}
+      {%- assign sorted_people = categorized_people | sort: "lastname" %}
+      <!-- Generate cards for each person -->
+      <div class="grid">
+        {%- for person in sorted_people -%}
+          {%- if person.show -%}
+            {% include people.liquid %}
+          {%- endif -%}
+        {%- endfor %}
+      </div>
   {% endfor %}
 </div>

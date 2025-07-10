@@ -9,9 +9,9 @@ nav_order: 100
 
 #### Campus Location
 
-The Calgary ML Lab is located in the Information and Communications Technology (ICT) Building on the main University of Calgary Campus. Further information can be found [here](https://www.ucalgary.ca/about/our-campuses/campus-maps-and-room-finder), including campus maps and parking information.
+The Spectrum Lab is located in the Department of Electrical Engineering at the Indian Institute of Science (IISc), Bengaluru. Further information can be found [here](https://iisc.ac.in/), including campus maps and visitor information.
 
-<iframe id="ucmap" src="https://ucalgary-gs.maps.arcgis.com/apps/webappviewer/index.html?id=2e1817b41cb64815a50f617593aabf4e" title="University of Calgary Campus Map" width="100%" height="512" allowfullscreen="true" frameborder="0" scrolling="no"></iframe>
+<iframe id="iiscmaps" src="https://www.openstreetmap.org/export/embed.html?bbox=77.5645%2C13.0115%2C77.5735%2C13.0195&amp;layer=mapnik&amp;marker=13.0155%2C77.5690" title="Indian Institute of Science Campus Map" width="100%" height="512" allowfullscreen="true" frameborder="0" scrolling="no"></iframe>
 
 #### Graduate Applicants
 
