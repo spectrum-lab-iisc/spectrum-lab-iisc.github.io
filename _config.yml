@@ -8,12 +8,12 @@ middle_name:
 last_name: Lab
 email: yani.ioannou@ucalgary.ca
 description: Spectrum Lab
-long_description: "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Domain-Agnostic Self-Supervised Learning. We collaborate with other research groups within the university with the Calgary Artificial Intelligence Research Group, and broader, on applying machine learning and computer vision to novel problems."
+long_description: "Spectrum Lab is a research group directed by Prof. Chandra Sekhar Seelamantula at the Department of Electrical Engineering at the Indian Institute of Science, Bengaluru."
 territorial_acknowledgement: 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/calgaryml/calgaryml.github.io">customized theme</a> based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Calgary, ucalgary, University of Calgary, Alberta, u of c, machine learning, ml, neural networks, NN, deep learning, artificial intelligence, AI, lab, research lab, research group, yani ioannou, schulich, engineering # add your own keywords or leave empty
+keywords: IISc, Bengaluru, Indian Institute of Science, signal processing, machine learing, computational imaging, reserach, generative modelling, artificial intelligence # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 # icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 logo: /assets/img/SpectrumLogo.png # the logo image used in the navbar and footer (alternatively, provide an emoji)
@@ -78,7 +78,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: calgaryml # your GitHub user name
+github_username: spectrum-lab-iisc # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
@@ -90,13 +90,13 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: 0000-0002-9797-5888 # your ORCID ID
+orcid_id: # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: Qy9yv44AAAAJ # your Google Scholar ID
+scholar_userid: 1g1i1B4AAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -108,7 +108,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: UCalgaryML # your X handle
+x_username: SpectrumLabIISc # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -128,7 +128,7 @@ zotero_username: # your zotero username
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: G-T1LVR8501M # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
@@ -332,8 +332,8 @@ jekyll-archives:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: Ioannou
-  first_name: [Yani, Yani Andrew, Yani A., Y.]
+  last_name: Seelamantula
+  first_name: [Chandra, Chandra Sekhar, C. S.]
 
   style: apa
   locale: en
