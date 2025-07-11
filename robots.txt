@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://localhost:4000/spectrum-website/sitemap.xml
+Sitemap: https://spectrum-lab-iisc.github.io/spectrum-website/sitemap.xml
