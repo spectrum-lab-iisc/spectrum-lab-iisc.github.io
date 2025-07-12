@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
 Sitemap: https://spectrum-lab-iisc.github.io/spectrum-website/sitemap.xml
